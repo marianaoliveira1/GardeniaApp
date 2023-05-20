@@ -1,4 +1,4 @@
-package com.example.gaderniaapp
+package com.example.gardeniaapp
 
 import org.junit.Test
 
