@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register_screen">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="675dp"
+        android:layout_height="912dp"
+        app:srcCompat="@drawable/register_screen"
+        tools:layout_editor_absoluteX="-20dp"
+        tools:layout_editor_absoluteY="-148dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="341dp"
+        android:layout_height="50dp"
+        android:background="@color/green_white"
+        android:backgroundTint="@color/green_white"
+        android:hint="Seu nome"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="341dp"
+        android:layout_height="50dp"
+        android:background="@color/green_white"
+        android:backgroundTint="@color/green_white"
+        android:hint="Seu e-mail"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress3"
+        android:layout_width="341dp"
+        android:layout_height="50dp"
+        android:background="@color/green_white"
+        android:backgroundTint="@color/green_white"
+        android:hint="Sua senha"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="478dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Já tem uma conta? Entrar"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="545dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="200dp"
+        android:layout_height="49dp"
+        android:backgroundTint="@color/green_button"
+        android:text="Cadastre-se"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="584dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
